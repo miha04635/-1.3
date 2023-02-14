@@ -35,7 +35,7 @@ main {
 
 .list {
   white-space: nowrap;
-  overflow: scroll;
+  overflow-y: auto;
   
   
 }
