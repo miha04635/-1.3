@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  min-width: 320px;
+  width: 320px;
   height: 597px;
   margin: 0 auto;
   
