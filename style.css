@@ -1,5 +1,8 @@
+
+
 html {
   box-sizing: border-box;
+  
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -10,6 +13,7 @@ body {
   max-width: 320px;
   height: 597px;
   margin: 0 auto;
+  
 }
 
 a { 
@@ -36,19 +40,18 @@ main {
 .list {
   white-space: nowrap;
   overflow-y: auto;
-  
-  
+  margin-left: 16px;
+  margin-bottom: 24px;
 }
 
 .list__item {
+  font-family: 'TT Lakes';
+  background-color: #F8F8F8;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #7E7E82;
   min-height: 40px;
-  margin-right: 19.56px;
-  margin-left: 16px;
-  margin-bottom: 24px;
   padding: 8px 9.3px 8px 16.54px;
 }
 
@@ -56,6 +59,7 @@ main {
   border: 2px solid #B8FFEC;
   border-radius: 6px;
   background-color: #fff;
+  
 }
 
 button {
@@ -64,6 +68,7 @@ button {
 }
 
 .main__title-text {
+  font-family: 'TT Lakes';
   font-size: 28px;
   line-height: 40px;
   letter-spacing: -0.6px;
@@ -72,9 +77,14 @@ button {
   
 }
 
+.about {
+  margin: 16px;
+  margin-top: 24px;
+}
+
 .about__text {
-  padding: 16px;
-  padding-top: 24px;
+  font-family: 'TT Lakes';
+  
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
@@ -107,7 +117,7 @@ button {
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #1B1C21;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .image {
