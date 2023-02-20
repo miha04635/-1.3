@@ -28,6 +28,14 @@ body {
   text-align: center;
 }
 
+.reviews {
+  display: none;
+}
+
+.RedMore {
+  margin-top: 16px;
+}
+
 @media (min-width: 768px) {
   body {
     min-width: 768px;
@@ -92,6 +100,18 @@ h1 {
   border-radius: 6px;
   background: #41F6D7
 }
+
+  .header__repair::before {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    left: 186px;
+    top: 28px;
+    border-radius: 1px;
+    background: #EAEAEA;
+    
+  }
 
 li {
   list-style-type: none;
@@ -191,6 +211,7 @@ a {
   .about__text--tablet {
     display: inline-block;
     padding: 0;
+    margin-top: 16px;
     padding-bottom: 10px;
     font-size: 14px;
     line-height: 18px;
@@ -215,6 +236,29 @@ a {
     width: 312px;
     margin: 0 48px 0 24px;
   }
+  .header__repair::before {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    left: 626px;
+    top: 28px;
+    border-radius: 1px;
+    background: #EAEAEA;
+  }
+  .header__logo::before {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    left: 84px;
+    top: 28px;
+    border-radius: 1px;
+    background: #EAEAEA;
+  }
+  .RedMore {
+    margin-top: 0;
+  }
 }
 
 .main__repair,
@@ -222,6 +266,9 @@ a {
   display: none;
 }
 
+.about__reviews {
+  display: none;
+}
 
 
 @media (min-width: 1120px) {
@@ -267,6 +314,9 @@ a {
   .navigation {
     justify-content: space-between;
     margin-right: 37px;
+    margin-bottom: 14.63px;
+    padding-bottom: 0;
+    
   }
   .about__text--laptop{
     display: inline-block;
@@ -276,16 +326,12 @@ a {
     letter-spacing: 0.2px;
     color: #1B1C21;
   }
-  .about__text--tablet {
-    margin-top: 16px;
-  }
   .image__preview--tablet {
     display: none;
   }
   .image__preview--laptop {
     display: block;
-    margin-left: 36px;
-    margin-right: 28px;
+    margin: 0 28px 13.78px 36px;
   }
   .main__title-text::after {
     content: "";
@@ -293,12 +339,34 @@ a {
     height: 40px;
     width: 3px;
     left: 1px;
-    top: 25px;
+    top: 42px;
     border-radius: 2px;
   }
+  .main__title {
+    padding-top: 42px;
+  }
+  .main__title-text {
+    padding-top: 0;
+    padding-bottom: 8.37px;
+  }
   .container {
-    margin: 19.22px 0 0 34px;
+    margin: 0 0 0 34px;
     width: 490px;
+  }
+  .reviews {
+    display: block;
+    margin: 0;
+    margin-left: 56px;
+    margin-bottom: 19.22px;
+  }
+  .reviews__text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+  }
+  .RedMore {
+    margin-top: 13.78px;
   }
 }
 
