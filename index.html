@@ -4,73 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\vs\Project\1.3\HTML\TTLakes (1)">
+    <link rel="stylesheet" href="C:\vs\Project\block_1.3\1.3\HTML\TTLakes (1)">
     <link rel="stylesheet" href="C:\vs\Project\block_1.3\1.3\CSS\style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="C:\vs\Project\block_1.3\1.3\HTML\TTLakes (1)\stylesheet.css">
     <link rel="stylesheet" href="stylesheet.css">
-
     <title>Document</title>
 </head>
     <body>
         <header class="header">
-            <nav class="navigation">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">
-                            <img class="burger" src="img/burger.svg" alt="burger">
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">
-                            <img clss="logo" src="img/logo.svg" alt="logo">
-                        </a>
-                    </li>
-                    <div class="diveder">
-                        <svg width="2" height="32" viewBox="0 0 2 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="2" height="32" rx="1" fill="#EAEAEA"/>
-                        </svg>
-                    </div>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">
-                            <img class="repair" src="img/repair.svg" alt="repair">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menu__link" href="#">
-                            <img class="menu__list-checkstatus" src="img/checkstatus.svg" alt="checkstatus">
-                        </a>
-                    </li>
-                </ul>
+            <nav class="header__navigation">
+                <button class="header__burger">
+                    <a class="header__button" href="#">
+                        <img class="burger" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/burger.svg" alt="burger">
+                    </a>
+                </button>
+                <button class="header__logo">
+                    <a class="header__button" href="#">
+                        <img clss="logo" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/logo.svg" alt="logo">
+                    </a>
+                </button>
+                <button class="header__call">
+                    <a class="header__button--tablet" href="#"><img class="call" src="https://raw.githubusercontent.com/miha04635/-1.3/ea80ecfc72ed660a233fb901456252303769d089/img/call.svg" alt="call"></a>
+                </button>
+                <button class="header__chat">
+                    <a class="header__button--tablet" href="#"><img class="chat" src="https://raw.githubusercontent.com/miha04635/-1.3/ea80ecfc72ed660a233fb901456252303769d089/img/chat.svg" alt="chat"></a>
+                </button>
+                <button class="header__profile">
+                    <a class="header__button--tablet" href="#"><img class="profile" src="https://raw.githubusercontent.com/miha04635/-1.3/ea80ecfc72ed660a233fb901456252303769d089/img/profile.svg" alt="profile"></a>
+                </button>
+                <button class="header__repair">
+                    <a class="header__button" href="#">
+                        <img class="repair" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/repair.svg" alt="repair">
+                    </a>
+                </button>
+                <button class="header__checkstatus">
+                    <a class="header__button" href="#">
+                        <img class="checkstatus" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/checkstatus.svg" alt="checkstatus">
+                    </a>
+                </button>
             </nav>
         </header>
 
         <main class="main">
             <div class="main__title">
-                <div class="highlight">
-                    <svg width="4" height="40" viewBox="0 0 4 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z" fill="#41F6D7"/>
-                    </svg>
-                </div>
                 <h1 class="main__title-text">Услуги и сервисы</h1>
+                <button class="main__repair">
+                    <a class="main__button" href="#">
+                        <img class="repair" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/repair.svg" alt="repair">
+                    </a>
+                </button>
+                <button class="main__checkstatus">
+                    <a class="main__button" href="#">
+                        <img class="checkstatus" src="https://raw.githubusercontent.com/miha04635/-1.3/3b44a2bc8732c8602407a1ac694dd8415c0a6b97/img/checkstatus.svg" alt="checkstatus">
+                    </a>
+                </button>
             </div>
-            <div class="list">
-               <button class="list__item list__item--atcive">Ремонтируемые устройства</button>
-               <button class="list__item">Дополнительные услуги</button>
-            </div>
+            <nav class="navigation">
+                <li class="navigation__item navigation__item--atcive">
+                    <a class="navigation__link" href="#">Ремонтируемые устройства</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Дополнительные услуги</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Цены на услуги</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Адреса сервисных центров</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Специальные цены</a>
+                </li>
+            </nav>
             <section class="about">
-                <p class="about__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <div class="container">
+                    <span class="about__text about__text--phone">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    </span>
+                    <span class="about__text about__text--tablet">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера </span>
+                    <span class="about__text--laptop">, что подтверждает большое количество постоянных клиентов. 
+                        Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+                    <button class="RedMore">
+                        <span class="RedMore__text">Читать далее</span>
+                    </button>
+                </div>
+                <div class="image">
+                    <img class="image__preview image__preview--phone" src="https://github.com/miha04635/-1.3/blob/main/img/preview.png?raw=true" alt="">
+                    <img class="image__preview image__preview--tablet" src="https://raw.githubusercontent.com/miha04635/-1.3/a4a9366588c38ca842e9c697db790fe5dec7bce3/img/tablet.png" alt="">
+                    <img class="image__preview image__preview--laptop" src="https://raw.githubusercontent.com/miha04635/-1.3/a4a9366588c38ca842e9c697db790fe5dec7bce3/img/laptop.jpg" alt="">
+                </div>
             </section>
-            <div class="RedMore">
-                <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50008 0.500076L4.00008 3.00008L1.50008 0.500076C1.22393 0.223933 0.776218 0.223933 0.500076 0.500076C0.223933 0.776218 0.223933 1.22393 0.500075 1.50008L3.29297 4.29297C3.68349 4.68349 4.31666 4.68349 4.70718 4.29297L7.50008 1.50008C7.77622 1.22393 7.77622 0.776218 7.50008 0.500076C7.22393 0.223933 6.77622 0.223933 6.50008 0.500076ZM6.50008 6.50008L4.00008 9.00008L1.50008 6.50008C1.22393 6.22393 0.776218 6.22393 0.500076 6.50008C0.223933 6.77622 0.223933 7.22393 0.500075 7.50008L3.29297 10.293C3.68349 10.6835 4.31666 10.6835 4.70718 10.293L7.50008 7.50008C7.77622 7.22393 7.77622 6.77622 7.50008 6.50008C7.22393 6.22393 6.77622 6.22393 6.50008 6.50008Z" fill="#41F6D7"/>
-                </svg>
-                <span class="RedMore__text">Читать далее</span>
-            </div>
-            <div class="image">
-                <img class="image__preview" src="img/preview.png" alt="" width="320" height="176">
-            </div>
+            
         </main>
     </body>
 </html>
+
+
+
+    
