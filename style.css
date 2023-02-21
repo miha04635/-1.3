@@ -119,11 +119,22 @@ a {
 
 .navigation {
   padding-left: 16px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   white-space: nowrap;
   overflow: auto;
+  
+}
+
+.navigation::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 24px;
+  border-radius: 0px;
+  right: 0;
+  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
 }
 
 .navigation__item--atcive {
@@ -145,8 +156,8 @@ a {
 .container {
   margin: 0 16px 0 16px;
   display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .about__text--phone {
@@ -203,7 +214,7 @@ a {
   .navigation {
     padding-left: 24px;
     padding-bottom: 40px;
-    
+    margin-bottom: 0;
   }
   .about {
     flex-wrap: nowrap;
@@ -241,8 +252,8 @@ a {
   }
 }
 
-.main__button--repair,
-.main__button--checkstatus {
+.main__button,
+.main__button{
   display: none;
 }
 
