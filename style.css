@@ -144,7 +144,9 @@ a {
 
 .container {
   margin: 0 16px 0 16px;
-  
+  display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .about__text--phone {
@@ -228,6 +230,7 @@ a {
     text-align: start;
     width: 312px;
     margin: 0 48px 0 24px;
+    
   }
   .header__logo::before {
     content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3e%3c/svg%3e ");;
@@ -356,11 +359,13 @@ a {
   padding-right: 16px;
 }
 
+.about {
+  display: inline-flex;
+}
 
-
-
-
-
+.image {
+  display: inline-flex;
+}
 
 
 
