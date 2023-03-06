@@ -193,6 +193,7 @@ a {
 
 
 .RedMore {
+  font-weight: 500;
   padding-bottom: 16px;
   background-color: #F8F8F8;
 }
@@ -313,7 +314,7 @@ a {
   .main__checkstatus--text {
     display: inline-block;
     margin-right: 8px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .main__button-repair,
