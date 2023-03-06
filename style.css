@@ -318,7 +318,7 @@ a {
 
   .main__button-repair,
   .main__button-checkstatus {
-    font-weight: 500;
+  
     display: flex;
     align-items: center;
     
