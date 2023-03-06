@@ -136,9 +136,6 @@ a {
 }
 
 
-.header__burger:hover {
-  content: url(#);
-}
 
 .navigation::after {
   content: "";
@@ -150,7 +147,7 @@ a {
   background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
 }
 
-.navigation__item:hover {
+.navigation__item {
   background: #FFFFFF;
   border: 2px solid #B8FFEC;
   border-radius: 6px;
