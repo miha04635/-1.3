@@ -26,13 +26,15 @@ body {
   justify-content: space-between;
   margin: 0 16px;
   text-align: center;
+  
 }
 
 .reviews {
   display: none;
 }
 
-.RedMore {
+.about__more {
+  cursor: pointer;
   font-weight: 300;
   margin-top: 16px;
 }
@@ -128,6 +130,7 @@ a {
 }
 
 .navigation {
+  height: 48px;
   padding-left: 16px;
   margin-bottom: 24px;
   display: flex;
@@ -153,7 +156,7 @@ a {
   border: 2px solid #B8FFEC;
   border-radius: 6px;
   padding: 8px 9.3px 8px 16.54px;
-  transition: 0.5s;
+ 
 }
 
 .navigation__item {
@@ -192,13 +195,13 @@ a {
 }
 
 
-.RedMore {
+.about__more {
   font-weight: 500;
   padding-bottom: 16px;
   background-color: #F8F8F8;
 }
 
-.RedMore__text {
+.about__more-text {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -235,8 +238,7 @@ a {
   }
   .navigation {
     padding-left: 24px;
-    padding-bottom: 40px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
   }
   .about {
     flex-wrap: nowrap;
@@ -274,7 +276,7 @@ a {
     background: #EAEAEA;
     margin-right: 16px;
   }
-  .RedMore {
+  .about__more {
     margin-top: 0;
   }
 }
@@ -381,7 +383,7 @@ a {
     letter-spacing: -0.2px;
     color: #7E7E82;
   }
-  .RedMore {
+  .about__more {
     margin-top: 13.78px;
   }
   .about__cps-picture--laptop {
@@ -389,11 +391,11 @@ a {
   }
 }
 
-.RedMore__text {
+.about__more-text {
   font-weight: 500  ;
 }
 
-.RedMore::before {
+.about__more::before {
   content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='11' fill='none'%3e%3cpath fill='%2341F6D7' fill-rule='evenodd' d='M6.5.5 4 3 1.5.5a.707.707 0 0 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 1.5a.707.707 0 0 0-1-1Zm0 6L4 9 1.5 6.5a.707.707 0 1 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 7.5a.707.707 0 0 0-1-1Z' clip-rule='evenodd'/%3e%3c/svg%3e");;
   margin-right: 16px;
 }
