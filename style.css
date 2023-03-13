@@ -153,10 +153,16 @@ a {
 
 .navigation__item:hover {
   background: #FFFFFF;
-  border: 2px solid #B8FFEC;
+  outline: 2px solid #B8FFEC;
   border-radius: 6px;
-  padding: 8px 9.3px 8px 16.54px;
+  
  
+}
+
+@media (min-width: 1120px) {
+  .navigation__item {
+    padding: 8.63px 21.7px 7.37px 22.64px;
+  }
 }
 
 .navigation__item {
@@ -164,6 +170,7 @@ a {
   color: #7E7E82;
   font-size: 16px;
   line-height: 24px;
+  padding: 8px 9.3px 8px 16.54px;
 }
 
 .about {
